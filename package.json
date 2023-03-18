@@ -2,7 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "description": "main website for skdempire",
-  "main": "app  .js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev":"nodemon app.js",
