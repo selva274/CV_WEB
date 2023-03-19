@@ -1,0 +1,17 @@
+[{
+"name":"NPTEL",
+"image":["/datas/nptel/Big Data Computing.jpg"]
+},
+{
+    "name":"Udemy",
+    "image":["datas/udemy/excel.jpg","datas/udemy/java.jpg","datas/udemy/WD.jpg","datas/udemy/JS.jpg","datas/udemy/node.jpg"]
+},
+{
+    "name":"Great Learning",
+    "image":["/datas/gl/blockchain.png","/datas/gl/C for Beginners.png","/datas/gl/Data structure in C.png",
+
+    "/datas/gl/front end development css.png","/datas/gl/front end development html.png","/datas/gl/Java programming.png",
+    "/datas/gl/programming basics.png","/datas/gl/python basic programming.png","/datas/gl/python for machine learning.png",
+    "/datas/gl/python fundamentals for beginners.png","/datas/gl/sql projects.png"]
+}
+]
