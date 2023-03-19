@@ -1,0 +1,59 @@
+<body>
+    <%- include('header_view.ejs',{Name:Name,bio:bio}); %>
+    <div class="about_body">
+    <h6 class="h2 text-center mt-4">SELVAKUMAR DHARMALINGAM</h6>
+    <h6 id="gmail" class=" text-center">selvakumard274@gmail.com</h6>
+    <!--this is higher education information-->
+    <h3 class="h3 text-center mt-5 text-secondary">Higher Education</h3>
+    <div class="container-fluid college col-11">
+        <table class="table table-secondary text-center table-hover  ">
+            <thead>
+                <tr>
+                    <td>Stream</td>
+                    <td>Name</td>
+                    <td>Place</td>
+                    <td>CGPA</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><kbd>BE</kbd>Computer Science Engineering</td>
+                    <td>VSB ENGINEERING COLLEGE</td>
+                    <TD>KARUR</TD>
+                    <TD>8.2%</TD>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--this is school education-->
+    <div class=" container-fluid college col-11">
+        <h3 class="h3 text-center mt-5 text-secondary">School Education</h3>
+        <table class="table table-secondary text-center table-hover col-6 ">
+            <thead>
+                <tr>
+                    <td>Stream</td>
+                    <td>Name</td>
+                    <td>Place</td>
+                    <td>Percentage</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11 <sup>nth</sup>and 12 <sup>nth</sup></td>
+                    <td>KARUR SARASWATHI VIDHYALAYA</td>
+                    <TD>KARUR</TD>
+                    <TD>92.1%</TD>
+                </tr>
+                <tr>
+                    <td>10 <sup>nth</sup></td>
+                    <td>KARUR SARASWATHI VIDHYALAYA</td>
+                    <td>KARUR</td>
+                    <td>90.2%</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+   </div>
+
+  <%- include('footer_view.ejs'); %>
+</body>

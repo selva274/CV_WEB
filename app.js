@@ -30,7 +30,10 @@ app.get("/certification",(req,res)=>[
 
 app.get("/projects",(req,res)=>{
     res.render("projects",{data:projects_data,Name:name,bio:bio});
-})
+});
+app.get("/about",(req,res)=>{
+    res.render("about",{data:projects_data,Name:name,bio:bio});
+});
 //port specification
 app.listen(process.env.PORT||port,()=>{
     console.log("server connected");
