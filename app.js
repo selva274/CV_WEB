@@ -18,10 +18,10 @@ app.set("view engine",'ejs');
 //varialbles
 const name=homedatas.Name;
 const bio=homedatas.bio;
-
+const des=homedatas.des;
 //http protoco;
 app.get("/",(req,res)=>{
-    res.render("home",{Name:name,bio:bio});
+    res.render("home",{Name:name,bio:bio,des:des});
 });
 
 app.get("/certification",(req,res)=>[
