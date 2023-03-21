@@ -4,7 +4,7 @@
 },
 {
     "name":"Udemy",
-    "image":["datas/udemy/excel.jpg","datas/udemy/Java.jpg","datas/udemy/WD.jpg","datas/udemy/JS.jpg","datas/udemy/node.jpg"]
+    "image":["datas/udemy/react.jpg","datas/udemy/node.jpg","datas/udemy/WD.jpg","datas/udemy/JS.jpg","datas/udemy/Java.jpg","datas/udemy/excel.jpg"]
 },
 {
     "name":"Great Learning",
