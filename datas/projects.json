@@ -22,8 +22,14 @@
 ]
 },
 {
+    "name":"Android App Development",
+    "image":["datas/Android Projects/videoplayer (2).jpg","datas/Android Projects/videoplayer (1).jpg",
+"datas/Android Projects/musicPlayer (2).jpg","datas/Android Projects/musicPlayer (1).jpg","datas/Android Projects/luckynumber (3).jpg","datas/Android Projects/luckynumber (2).jpg","datas/Android Projects/luckynumber (1).jpg"]
+},
+{
     "name":"Arduino",
     "image":["datas/arduino/lfe saving.png","datas/arduino/display.jpeg",
 "datas/arduino/led.jpeg"]
 }
+
 ]
