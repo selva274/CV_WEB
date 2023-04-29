@@ -5,6 +5,10 @@
   <% for(let k of data){%>
       <h1><%= k.name%></h1>
   <% for(let s of k.image){%>
+    <% if(k.name=='Android App Development'){%>
+    <img style="height: 420px; width: 260px;" src="<%= s %>"></img>
+    <%continue;%>
+    <%}%>
     <img src="<%= s %>"></img>
   <%}%>
   <%}%>

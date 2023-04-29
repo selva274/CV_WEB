@@ -2,6 +2,11 @@
     "name":"UI and UX",
     "image":["datas/ui/CarromBoard-UI - Google Chrome 12_3_2022 7_55_34 PM.png",
 "datas/ui/Chess - Google Chrome 12_2_2022 8_35_33 PM.png",
+"datas/ui/learn_trade (5).png",
+"datas/ui/learn_trade (1).png",
+"datas/ui/learn_trade (4).png",
+"datas/ui/learn_trade (3).png",
+"datas/ui/learn_trade (2).png",
 "datas/ui/aweb (1).png",
 "datas/ui/aweb (2).png",
 "datas/ui/aweb (3).png",
@@ -22,8 +27,14 @@
 ]
 },
 {
+    "name":"Android App Development",
+    "image":["datas/Android Projects/videoplayer (2).jpg","datas/Android Projects/videoplayer (1).jpg",
+"datas/Android Projects/musicPlayer (2).jpg","datas/Android Projects/musicPlayer (1).jpg","datas/Android Projects/luckynumber (3).jpg","datas/Android Projects/luckynumber (2).jpg","datas/Android Projects/luckynumber (1).jpg"]
+},
+{
     "name":"Arduino",
     "image":["datas/arduino/lfe saving.png","datas/arduino/display.jpeg",
 "datas/arduino/led.jpeg"]
 }
+
 ]
