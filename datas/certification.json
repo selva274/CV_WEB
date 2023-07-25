@@ -1,10 +1,15 @@
 [{
+  "name":"Workshop",
+  "image":["datas/workshop/web3.0.png",
+"datas/workshop/fullstack.png","datas/workshop/cyber.jpg","datas/workshop/appdev.png"
+]
+},{
 "name":"NPTEL",
 "image":["/datas/nptel/Big Data Computing.jpg"]
 },
 {
     "name":"Udemy",
-    "image":["datas/udemy/excel.jpg","datas/udemy/Java.jpg","datas/udemy/WD.jpg","datas/udemy/JS.jpg","datas/udemy/node.jpg"]
+    "image":["datas/udemy/python.jpg","datas/udemy/react.jpg","datas/udemy/node.jpg","datas/udemy/WD.jpg","datas/udemy/JS.jpg","datas/udemy/Java.jpg","datas/udemy/excel.jpg"]
 },
 {
     "name":"Great Learning",

@@ -53,7 +53,8 @@ img{
 
  /* About styles */
  .about_body{
-   height: 64vh;
+   height: 74vh;
+   /* border: 10px 0px 10px 0px ; */
  }
 
 /* footer styles */
