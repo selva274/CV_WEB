@@ -4,44 +4,6 @@ const homedatas=require("./datas/home_datas.json");
 const projects_data=require("./datas/projects.json");
 const path=require("path");
 const cors=require('cors');
-<<<<<<< HEAD
-require('dotenv').config({path:"./config.env"});
-const {connectTodb,getDb} =require("./db");
-const mongoose=require('mongoose');
-const app=express();
-const port=3000||process.env.port;
-const db=require("./db")
-//DB connection
-
-connectTodb((err)=>{
-  if(!err){
-   
-    db=getDb();
-  }
-});
-////
- 
-app.listen(port,()=>{
-    db.connectTodb(function(err){
-        if(err)
-            console.err(err);
-        })
-        console.log("server connected");
- 
-});
-app.get("/my",(req,res)=>{
-     let books=[];
-     db.collection("beast").find()
-      .forEach(element => {
-        books.push(element);
-    }) .then(()=>{
-    res.status(200).json(books);
- })
-  
-})
-
-
-=======
 const mysql=require("mysql");
 const bodyparser=require("body-parser");
 require('dotenv').config({path:"./config.env"});
@@ -78,7 +40,6 @@ const port=3000||process.env.port;
 //     })
 //     next();
 // }
->>>>>>> cef2d0378209e761c15d24f1fd65d5b772d3349a
 //middleware
 app.use(cors());
 app.use(express.json());
@@ -110,9 +71,6 @@ app.get("/about",(req,res)=>{
     res.render("about",{data:projects_data,Name:name,bio:bio});
 });
 //port specification
-<<<<<<< HEAD
-=======
 app.listen(port,()=>{
     console.log("server connected!");
 })
->>>>>>> cef2d0378209e761c15d24f1fd65d5b772d3349a
