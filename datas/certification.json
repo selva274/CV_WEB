@@ -1,7 +1,8 @@
 [{
   "name":"Workshop",
   "image":["datas/workshop/web3.0.png",
-"datas/workshop/fullstack.png","datas/workshop/cyber.jpg","datas/workshop/appdev.png","datas/cybernaut/cppw.png","datas/cybernaut/wpy.png"
+"datas/workshop/fullstack.png","datas/workshop/cyber.jpg","datas/workshop/appdev.png","datas/cybernaut/cppw.png","datas/cybernaut/wpy.png",
+"datas/workshop/uniq.jpg","datas/workshop/uniq2.jpg","datas/workshop/uniq3.jpg"
 ]
 },{
 "name":"NPTEL",

@@ -8,7 +8,7 @@ h1{
    
 }
 img{
-   height: 300px;
+   height: 270px;
    width: 450px;   
    margin: 10px;
    border-left: 6px solid  rgb(65, 65, 117);
@@ -45,11 +45,11 @@ img{
    align-items: center;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1250px) {
    img {
-    width: 100%;
+    width: 450px;
    }
- } 
+ }   
 
  /* About styles */
  .about_body{
